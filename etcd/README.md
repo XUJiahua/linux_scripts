@@ -9,6 +9,21 @@ issue:
 
 raw.githubusercontent.com 被墙。
 
+```
+docker-machine scp /usr/bin/etcd etcd01:/tmp
+docker-machine scp /usr/bin/etcdctl etcd01:/tmp
+
+docker-machine scp /usr/bin/etcd etcd02:/tmp
+docker-machine scp /usr/bin/etcdctl etcd02:/tmp
+
+docker-machine scp /usr/bin/etcd etcd03:/tmp
+docker-machine scp /usr/bin/etcdctl etcd03:/tmp
+```
+
+```
+sudo cp /tmp/etcd* /usr/bin
+```
+
 reference:
 
 https://github.com/etcd-io/etcd/releases/
