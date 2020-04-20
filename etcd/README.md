@@ -49,7 +49,7 @@ etcd02   -        virtualbox   Running   tcp://192.168.99.101:2376           v19
 etcd03   -        virtualbox   Running   tcp://192.168.99.102:2376           v19.03.5
 ```
 
-reference:
+### reference
 
 1. https://github.com/etcd-io/etcd/releases/
 2. https://etcd.io/docs/v3.4.0/op-guide/clustering/#static
