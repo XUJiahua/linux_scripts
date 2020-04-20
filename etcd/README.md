@@ -6,6 +6,34 @@
 |etcd02   |192.168.99.101   |
 |etcd03   |192.168.99.102   |
 
+### Provision
+
+Install etcd/etcdctl binary.
+
+```
+bash download.sh
+```
+
+### Setup etcd Cluster
+
+on etcd01
+
+```
+bash etcd01.sh
+```
+
+on etcd02
+
+```
+bash etcd02.sh
+```
+
+on etcd03
+
+```
+bash etcd03.sh
+```
+
 
 ### Virtual Machines Setup
 
