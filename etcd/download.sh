@@ -1,4 +1,4 @@
-ETCD_VER=v3.4.6
+ETCD_VER=v3.4.7
 
 # choose either URL
 GOOGLE_URL=https://storage.googleapis.com/etcd
@@ -14,3 +14,6 @@ rm -f /tmp/etcd-${ETCD_VER}-linux-amd64.tar.gz
 
 /tmp/etcd-download-test/etcd --version
 /tmp/etcd-download-test/etcdctl version
+
+sudo cp /tmp/etcd-download-test/etcd /usr/local/bin/
+sudo cp /tmp/etcd-download-test/etcdctl /usr/local/bin/
